@@ -1,0 +1,49 @@
+{
+  "name": "amollo-lint",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "amollo-ui",
+    "email": "amolloui@gmail.com"
+  },
+  "homepage": "https://github.com/amollo-ui/amollo-lint#readme",
+  "bugs": {
+    "url": "https://github.com/amollo-ui/amollo-lint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amollo-ui/amollo-lint.git"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "npm": ">=8.x",
+    "yarn": ">=2.x"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "ignoreChanges": [
+      "**/*.md"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.3.4"
+  }
+}

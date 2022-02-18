@@ -1,0 +1,8 @@
+{
+  "packages": [ "packages/*" ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "includeMergedTags": true,
+  "useWorkspaces": true,
+  "ignoreChanges": ["**/__(fixtures|tests|specs|mocks)__/**", "**/*.(md|txt)"]
+}
