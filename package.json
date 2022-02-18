@@ -45,5 +45,9 @@
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "lint-staged": "^12.3.4"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "mod": "chmod ug+x .husky/* && chmod ug+x .git/hooks/*"
   }
 }
