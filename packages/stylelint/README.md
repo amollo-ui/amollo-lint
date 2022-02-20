@@ -8,13 +8,13 @@
 ## Installation
 - **npm**
 ```
-npm install --save-dev @amollo-lint/stylelint
+npm install --save-dev @amollo-lint/stylelint stylelint
 ```
 
 - **yarn**
 
 ```
-yarn add -D @amollo-lint/stylelint
+yarn add -D @amollo-lint/stylelint stylelint
 ```
 
 ## Usage
