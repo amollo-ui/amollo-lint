@@ -27,11 +27,6 @@
     "type": "git",
     "url": "git@github.com:amollo-ui/amollo-lint.git"
   },
-  "engines": {
-    "node": ">=16.x",
-    "npm": ">=8.x",
-    "yarn": ">=2.x"
-  },
   "main": "index.js",
   "peerDependencies": {
     "stylelint": ">=14.x"
