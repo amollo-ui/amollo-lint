@@ -1,0 +1,44 @@
+{
+  "name": "@amollo-lint/stylelint",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "SCSS config for Stylelint",
+  "author": {
+    "name": "amollo-ui",
+    "email": "amolloui@gmail.com"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "amollo",
+    "linter"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/amollo-ui/amollo-lint/packages/stylelint#readme",
+  "bugs": {
+    "url": "https://github.com/amollo-ui/amollo-lint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amollo-ui/amollo-lint.git"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "npm": ">=8.x",
+    "yarn": ">=2.x"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": ">=14.x"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
