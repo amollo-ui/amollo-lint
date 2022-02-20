@@ -21,7 +21,8 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "packages/@eslint/*"
     ]
   },
   "config": {
