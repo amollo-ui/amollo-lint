@@ -4,5 +4,26 @@
   "npmClient": "yarn",
   "includeMergedTags": true,
   "useWorkspaces": true,
-  "ignoreChanges": ["**/__(fixtures|tests|specs|mocks)__/**", "**/*.(md|txt)"]
+  "ignoreChanges": ["**/__(fixtures|tests|specs|mocks)__/**", "**/*.(md|txt)"],
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "exact": true,
+      "message": "release: publish"
+    },
+    "bootstrap": {
+      "hoist": true
+    },
+    "ignoreChanges": [
+      "**/*.md"
+    ]
+  },
+  "changelog": {
+    "labels": {
+      "feat": "New Feature",
+      "fix": "Bug Fix"
+    }
+  }
 }
