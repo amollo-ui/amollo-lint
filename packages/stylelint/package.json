@@ -19,7 +19,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/amollo-ui/amollo-lint/packages/stylelint#readme",
+  "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/stylelint#readme",
   "bugs": {
     "url": "https://github.com/amollo-ui/amollo-lint/issues"
   },
