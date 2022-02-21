@@ -5,9 +5,9 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@amollo-lint/eslint-js@workspace:packages/@eslint/js":
+"@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
   version: 0.0.0-use.local
-  resolution: "@amollo-lint/eslint-js@workspace:packages/@eslint/js"
+  resolution: "@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js"
   dependencies:
     eslint: ">=7.x"
   peerDependencies:
