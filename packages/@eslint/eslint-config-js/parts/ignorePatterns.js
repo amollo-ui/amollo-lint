@@ -3,6 +3,6 @@ module.exports = [
     ".git",
     ".cache",
     ".yarn",
-    ".ides",
+    ".idea",
     ".vscode"
 ];
