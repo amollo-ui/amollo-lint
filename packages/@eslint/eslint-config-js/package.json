@@ -22,7 +22,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@eslint/js#readme",
+  "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@eslint/eslint-config-js#readme",
   "bugs": {
     "url": "https://github.com/amollo-ui/amollo-lint/issues"
   },
