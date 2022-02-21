@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0 (2022-02-21)
+
+
+### Bug Fixes
+
+* **@amollo-lint:eslint-config-js:** change home path link ([8d57e9c](https://github.com/amollo-ui/amollo-lint/commit/8d57e9c99d12edf0e8e4e37edb14d98680dc78bd))
+
+
+
+
+
 ## 0.0.2 (2022-02-21)
 
 
