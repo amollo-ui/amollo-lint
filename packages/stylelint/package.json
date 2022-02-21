@@ -42,7 +42,7 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "@amollo-lint/eslint-config-js": "workspace:packages/@eslint/eslint-config-js",
+    "@amollo-lint/eslint-config-js": "^1.0.0",
     "eslint": "^8.9.0"
   }
 }
