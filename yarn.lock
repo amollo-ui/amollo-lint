@@ -5,7 +5,7 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
+"@amollo-lint/eslint-config-js@workspace:^, @amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js"
   dependencies:
@@ -19,6 +19,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amollo-lint/stylelint@workspace:packages/stylelint"
   dependencies:
+    "@amollo-lint/eslint-config-js": "workspace:^"
+    eslint: ^8.9.0
     stylelint-config-standard: ^24.0.0
     stylelint-config-standard-scss: ^3.0.0
     stylelint-order: ^5.0.0
@@ -2389,7 +2391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:>=7.x":
+"eslint@npm:>=7.x, eslint@npm:^8.9.0":
   version: 8.9.0
   resolution: "eslint@npm:8.9.0"
   dependencies:
