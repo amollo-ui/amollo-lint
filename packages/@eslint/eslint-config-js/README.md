@@ -1,4 +1,4 @@
-# @amollo-lint/eslint-js
+# @amollo-lint/eslint-config-js
 
 [![MIT License][license-image]][LICENSE] 
 
@@ -7,20 +7,20 @@
 ## Installation
 - **npm**
 ```
-npm install --save-dev @amollo-lint/eslint-js eslint
+npm install --save-dev @amollo-lint/eslint-config-js eslint
 ```
 
 - **yarn**
 
 ```
-yarn add -D @amollo-lint/eslint-js eslint
+yarn add -D @amollo-lint/eslint-config-js eslint
 ```
 
 ## Usage
 Set your eslint config to:
 ```
 {
-    "extends": "@amollo-lint/eslint-js"
+    "extends": "@amollo-lint/eslint-config-js"
 }
 ```
 

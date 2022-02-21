@@ -1,5 +1,5 @@
 {
-  "name": "@amollo-lint/eslint-js",
+  "name": "@amollo-lint/eslint-config-js",
   "version": "0.0.2",
   "license": "MIT",
   "description": "ESLint rules for JavaScript",
