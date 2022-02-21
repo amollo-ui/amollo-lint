@@ -31,6 +31,11 @@
     "url": "git@github.com:amollo-ui/amollo-lint.git"
   },
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "lint:fix": "yarn lint --fix",
+    "prepublishOnly": "yarn lint:fix && yarn lint"
+  },
   "peerDependencies": {
     "eslint": ">=7.x"
   },
