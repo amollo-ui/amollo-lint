@@ -16,7 +16,7 @@
   ],
   "files": [
     "index.js",
-    "parts/*",
+    "rules/*",
     ".eslintrc"
   ],
   "publishConfig": {

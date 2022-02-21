@@ -1,13 +1,27 @@
-const env = require("./parts/env");
-const parserOptions = require("./parts/parserOptions");
-const rules = require("./parts/rules");
-const ignorePatterns = require("./parts/ignorePatterns");
+const rules = require("./rules");
 
 module.exports = {
     "root": true,
     "extends": "eslint:recommended",
-    env,
-    parserOptions,
-    ignorePatterns,
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "es2017": true,
+        "es2020": true,
+        "node": true,
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+    },
+    "ignorePatterns": [
+        "node_modules",
+        ".git",
+        ".cache",
+        ".yarn",
+        ".idea",
+        ".vscode"
+    ],
     rules,
 };
