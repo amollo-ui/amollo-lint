@@ -40,6 +40,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "lint": "yarn workspaces foreach -pt run lint",
     "modUnix": "chmod ug+x .husky/* && chmod ug+x .git/hooks/*",
     "versionup": "sh ./shell/versionup"
   }
