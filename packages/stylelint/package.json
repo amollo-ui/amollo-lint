@@ -28,6 +28,11 @@
     "url": "git@github.com:amollo-ui/amollo-lint.git"
   },
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "lint:fix": "yarn lint --fix",
+    "prepublishOnly": "yarn lint:fix && yarn lint"
+  },
   "peerDependencies": {
     "stylelint": ">=14.x"
   },
@@ -35,5 +40,9 @@
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "@amollo-lint/eslint-config-js": "workspace:packages/@eslint/eslint-config-js",
+    "eslint": "^8.9.0"
   }
 }
