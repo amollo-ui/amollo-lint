@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/amollo-ui/amollo-lint/compare/@amollo-lint/eslint-config-js@1.0.0...@amollo-lint/eslint-config-js@1.1.0) (2022-02-22)
+
+
+### Bug Fixes
+
+* **@amollo-lint:eslint-config-js:** correct folder from webstorm .idea ([40c95de](https://github.com/amollo-ui/amollo-lint/commit/40c95de935a27de7fa9f835f76e41e412c5a1a8c))
+
+
+### Features
+
+* **@amollo-lint:eslint-config-js:** hang ecmaFeatures and change the project structure ([e7b2c87](https://github.com/amollo-ui/amollo-lint/commit/e7b2c87767dd0833c9ae3360bc929c5ad5f7c2fc))
+
+
+
+
+
 # 1.0.0 (2022-02-21)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/stylelint",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
   "description": "SCSS config for Stylelint",
   "author": {
@@ -42,7 +42,7 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "@amollo-lint/eslint-config-js": "^1.0.0",
+    "@amollo-lint/eslint-config-js": "1.1.0",
     "eslint": "^8.9.0"
   }
 }
