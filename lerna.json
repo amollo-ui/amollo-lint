@@ -1,5 +1,5 @@
 {
-  "packages": [ "packages/*", "packages/@eslint/*" ],
+  "packages": [ "packages/*", "packages/@eslint/*", "packages/@commitlint/*" ],
   "version": "independent",
   "npmClient": "yarn",
   "includeMergedTags": true,
@@ -7,7 +7,7 @@
   "ignoreChanges": ["**/__(fixtures|tests|specs|mocks)__/**", "**/*.(md|txt)"],
   "command": {
     "version": {
-      "allowBranch": "master",
+      "allowBranch": ["master", "release/*"],
       "conventionalCommits": true,
       "createRelease": "github",
       "exact": true,
