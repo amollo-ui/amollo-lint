@@ -22,7 +22,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "packages/@eslint/*"
+      "packages/@eslint/*",
+      "packages/@commitlint/*"
     ]
   },
   "config": {
