@@ -21,7 +21,7 @@ Set your commitlint config to:
 ```js
 {
     extends: "@commitlint/config-conventional",
-    plugins: ["card-id"],
+    plugins: ["@amollo-lint/commitlint-plugin-card-id"],
     rules: {
         "card-id": [
             2,
