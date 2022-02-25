@@ -55,7 +55,7 @@ Link to the card in trello https://trello.com/c/ES7Mn9Ow
 
 ## Options
 
-### position
+### `position`
 Location in the subject of the commit <br/>
 **accept** - `"start"` and `"end"` <br/>
 **default** - `"start"` <br/><br/>
@@ -73,9 +73,9 @@ example:
      - *correct*
         - `"<type>(<scope>): initial commit |c-ES7Mn9Ow|"`
     
-### ignoreTypes
+### `ignoreTypes`
 Ignoring the `card-id` rule for comparable types <br/>
-**accept** - `string[]` <br/>
+**accept** - `string[] | string` <br/>
 **default** - `[]` <br/><br/>
 example:
   - **["test", "ci"]** - `required: true`
@@ -84,7 +84,18 @@ example:
     - *correct*
         - `"ci(<scope>): initial commit"`
 
-### prefixId
+### `ignoreScopes`
+Ignoring the `card-id` rule for comparable scopes <br/>
+**accept** - `string[] | string` <br/>
+**default** - `[]` <br/><br/>
+example:
+  - **["root", "sidebar"]** - `required: true`
+    - *incorrect* - 
+        - `"<type>(otherScope): initial commit"`
+    - *correct*
+        - `"<type>(sidebar): initial commit"`
+
+### `prefixId`
 Prefix for identifier <br/>
 **accept** - `string` <br/>
 **default** - `"c-"` <br/><br/>
@@ -96,7 +107,7 @@ example:
     - *correct*
         - `"<type>(<scope>): |id-ES7Mn9Ow| initial commit"`
 
-### borderType
+### `borderType`
 Card id border type <br/>
 **accept** - `string | [string, string]` <br/>
 **acceptSingleValue** - `"| or ||" | "{ or {}" | "< or <>" | "( or ()"` <br/>
@@ -109,7 +120,7 @@ example:
     - *correct*
         - `"<type>(<scope>): {c-ES7Mn9Ow} initial commit"`
 
-### minLengthId
+### `minLengthId`
 Minimum identifier length <br/>
 **accept** - `number` <br/>
 **default** - `2` <br/><br/>
@@ -120,7 +131,7 @@ example:
     - *correct*
         - `"<type>(<scope>): |c-ES7M| initial commit"`
 
-### required
+### `required`
 If `true`, then the map id must be in the commit subject.
 If `false`, validation will only occur when the map id pattern is found in the commit subject <br/>
 **accept** - `false` or `true` <br/>
@@ -138,7 +149,7 @@ example:
     - *correct*
         - `"<type>(<scope>): |c-ES7Mn9Ow| initial commit"`
 
-### idMatch
+### `idMatch`
 Matching with your own pattern <br/>
 **accept** - `RegExp` <br/>
 **default** - `null` <br/><br/>
@@ -149,7 +160,7 @@ example:
     - *correct*
         - `"<type>(<scope>): |c-4129791| initial commit"`
   
-### spaceBeforeAfter
+### `spaceBeforeAfter`
 Space on the sides of the card ID <br/>
 **accept** - `"before" | "after" | "both"` <br/>
 **default** - if position is equal to start, then `"both"` otherwise position is equal to end, then `"before"`  <br/><br/>
@@ -160,7 +171,7 @@ example:
     - *correct*
         - `"<type>(<scope>): initial commit |c-ES7Mn9Ow| "`
 
-### headerLikeSubject
+### `headerLikeSubject`
 If checking a commit without headers, enable this option so that the commit subject is accepted as the header <br/>
 **accept** - `true` or `false` <br/>
 **default** - `false` <br/><br/>
@@ -170,7 +181,7 @@ example:
         - `"<type>(<scope>): |c-ES7Mn9Ow| initial commit"`
     - *correct*
         - `"|c-ES7Mn9Ow| initial commit"`
-### log
+### `log`
 Displaying a message after a successful commit check <br/>
 **accept** - `{message: string, onlyId: boolean, pattern: string} | string` <br/>
 **default** - `null` <br/><br/>
