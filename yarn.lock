@@ -5,7 +5,25 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@amollo-lint/eslint-config-js@^1.0.0, @amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
+"@amollo-lint/commitlint-config@workspace:packages/@commitlint/commitlint-config":
+  version: 0.0.0-use.local
+  resolution: "@amollo-lint/commitlint-config@workspace:packages/@commitlint/commitlint-config"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    eslint: ^8.9.0
+  languageName: unknown
+  linkType: soft
+
+"@amollo-lint/commitlint-plugin-card-id@workspace:packages/@commitlint/commitlint-plugin-card-id":
+  version: 0.0.0-use.local
+  resolution: "@amollo-lint/commitlint-plugin-card-id@workspace:packages/@commitlint/commitlint-plugin-card-id"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    eslint: ^8.9.0
+  languageName: unknown
+  linkType: soft
+
+"@amollo-lint/eslint-config-js@1.1.0, @amollo-lint/eslint-config-js@^1.1.0, @amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js"
   dependencies:
@@ -19,7 +37,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amollo-lint/stylelint@workspace:packages/stylelint"
   dependencies:
-    "@amollo-lint/eslint-config-js": ^1.0.0
+    "@amollo-lint/eslint-config-js": 1.1.0
     eslint: ^8.9.0
     stylelint-config-standard: ^24.0.0
     stylelint-config-standard-scss: ^3.0.0
@@ -1231,13 +1249,13 @@ __metadata:
   linkType: hard
 
 "agentkeepalive@npm:^4.1.3":
-  version: 4.2.0
-  resolution: "agentkeepalive@npm:4.2.0"
+  version: 4.2.1
+  resolution: "agentkeepalive@npm:4.2.1"
   dependencies:
     debug: ^4.1.0
     depd: ^1.1.2
     humanize-ms: ^1.2.1
-  checksum: 89806f83ceebbcaabf6bd581a8dce4870910fd2a11f66df8f505b4cd4ce4ca5ab9e6eec8d11ce8531a6b60f6748b75b0775e0e2fa33871503ef00d535418a19a
+  checksum: 39cb49ed8cf217fd6da058a92828a0a84e0b74c35550f82ee0a10e1ee403c4b78ade7948be2279b188b7a7303f5d396ea2738b134731e464bf28de00a4f72a18
   languageName: node
   linkType: hard
 
