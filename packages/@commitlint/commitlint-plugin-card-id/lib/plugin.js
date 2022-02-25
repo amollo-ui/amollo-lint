@@ -25,6 +25,7 @@ const CardIdSettings = require("./CardIdSettings");
  *  prefixId: string | boolean,
  *  borderType: [string, string] | string,
  *  minLengthId: number,
+ *  ignoreScopes: Array<string> | string,
  *  required: boolean,
  *  idMatch: RegExp,
  *  spaceBeforeAfter: "before" | "after" | "both",
@@ -58,7 +59,10 @@ const subjectIncludeCardRule = (parsed, when, value = {}) => {
         const settings = new Settings(value, parsed);
         const errorMessage = settings.getErrorMessage();
 
-        if (parsed.type && settings.ignoreTypes.includes(parsed.type)) {
+        if (
+            (parsed.type && settings.ignoreTypes.includes(parsed.type)) ||
+            (parsed.scope && settings.ignoreScopes.includes(parsed.scope))
+        ) {
             return [true, errorMessage];
         }
 

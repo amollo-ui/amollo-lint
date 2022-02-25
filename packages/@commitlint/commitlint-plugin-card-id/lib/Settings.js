@@ -11,11 +11,12 @@ class Settings {
      * @param {{
      *  position: "start" | "end",
      *  ignoreTypes: Array<string> | string,
+     *  ignoreScopes: Array<string> | string,
      *  prefixId: string | boolean,
      *  borderType: [string, string] | string,
      *  minLengthId: number,
      *  required: boolean,
-     *  spaceBeforeAfter: "before" | "after" | "both" | "never",
+     *  spaceBeforeAfter: "before" | "after" | "both",
      *  log: {
      *    message: string,
      *    onlyId: boolean,
@@ -37,6 +38,7 @@ class Settings {
         this._setBorderCouple(options.borderType);
         this._setSpaceBeforeAfter(options.spaceBeforeAfter);
         this._setIgnoreTypes(options.ignoreTypes);
+        this._setIgnoreScopes(options.ignoreScopes);
         this._setMinLengthId(options.minLengthId);
         this._setRequired(options.required);
         this._setLog(options.log);
@@ -113,6 +115,20 @@ class Settings {
             this.ignoreTypes = types;
         } else {
             this.ignoreTypes = [types];
+        }
+    }
+
+    _setIgnoreScopes(scopes = []) {
+        if (typeof scopes !== "string" && !Array.isArray(scopes)) {
+            throw new ConfigError(
+                `ignoreScopes=${scopes} - must be an array or string type`
+            );
+        }
+
+        if (typeof scopes !== "string") {
+            this.ignoreScopes = scopes;
+        } else {
+            this.ignoreScopes = [scopes];
         }
     }
 
