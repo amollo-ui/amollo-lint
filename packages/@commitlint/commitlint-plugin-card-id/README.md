@@ -172,7 +172,7 @@ example:
         - `"|c-ES7Mn9Ow| initial commit"`
 ### log
 Displaying a message after a successful commit check <br/>
-**accept** - `{message: string, onlyId: boolean, pattern: string} | string`
+**accept** - `{message: string, onlyId: boolean, pattern: string} | string` <br/>
 **default** - `null` <br/><br/>
 
 [license-image]: https://img.shields.io/npm/l/format-message.svg
