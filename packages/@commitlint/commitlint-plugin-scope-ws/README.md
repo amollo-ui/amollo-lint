@@ -1,6 +1,7 @@
 # @amollo-lint/commitlint-plugin-scope-ws
 
 [![MIT License][license-image]][LICENSE]
+[![npm version][npm-img]][npm]
 
 > recognition and inclusion of the package names of the workspaces
 
@@ -96,3 +97,5 @@ example:
 
 [license-image]: https://img.shields.io/npm/l/format-message.svg
 [LICENSE]: https://github.com/format-message/format-message/blob/master/LICENSE-MIT
+[npm-img]: https://img.shields.io/npm/v/@amollo-lint/commitlint-plugin-scope-ws.svg?style=flat
+[npm]: https://www.npmjs.com/package/@amollo-lint/commitlint-plugin-scope-ws
