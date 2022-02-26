@@ -5,21 +5,22 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@amollo-lint/commitlint-config@workspace:packages/@commitlint/commitlint-config":
-  version: 0.0.0-use.local
-  resolution: "@amollo-lint/commitlint-config@workspace:packages/@commitlint/commitlint-config"
-  dependencies:
-    "@amollo-lint/eslint-config-js": ^1.1.0
-    eslint: ^8.9.0
-  languageName: unknown
-  linkType: soft
-
 "@amollo-lint/commitlint-plugin-card-id@workspace:packages/@commitlint/commitlint-plugin-card-id":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/commitlint-plugin-card-id@workspace:packages/@commitlint/commitlint-plugin-card-id"
   dependencies:
     "@amollo-lint/eslint-config-js": ^1.1.0
     eslint: ^8.9.0
+  languageName: unknown
+  linkType: soft
+
+"@amollo-lint/commitlint-plugin-scope-ws@workspace:packages/@commitlint/commitlint-plugin-scope-ws":
+  version: 0.0.0-use.local
+  resolution: "@amollo-lint/commitlint-plugin-scope-ws@workspace:packages/@commitlint/commitlint-plugin-scope-ws"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    eslint: ^8.9.0
+    fast-glob: ^3.2.11
   languageName: unknown
   linkType: soft
 
@@ -2560,7 +2561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
   version: 3.2.11
   resolution: "fast-glob@npm:3.2.11"
   dependencies:
