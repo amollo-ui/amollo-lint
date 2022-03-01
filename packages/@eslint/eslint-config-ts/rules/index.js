@@ -28,6 +28,7 @@ module.exports = {
     "@typescript-eslint/prefer-includes": "off",
     "@typescript-eslint/prefer-interface": "off",
     "@typescript-eslint/prefer-function-type": "warn",
+    "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
     "@typescript-eslint/prefer-string-starts-ends-with": "off",
     "@typescript-eslint/no-use-before-define": "off",
@@ -91,6 +92,5 @@ module.exports = {
                 "match": true,
             },
         },
-    ],
-    "@typescript-eslint/prefer-readonly": "error",
+    ]
 };
