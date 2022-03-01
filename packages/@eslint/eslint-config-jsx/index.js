@@ -13,14 +13,6 @@ module.exports = {
             "version": "detect"
         }
     },
-    "overrides": [
-        {
-            "files": ["*.jsx"],
-            "ecmaFeatures": {
-                "jsx": true, // Allows for the parsing of JSX
-            }
-        }
-    ],
     "rules": {
         "jsx-quotes": [2, "prefer-double"],
         "react/react-in-jsx-scope": "off",
