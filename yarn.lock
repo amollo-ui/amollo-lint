@@ -34,7 +34,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/eslint-config-jsx@^1.0.0, @amollo-lint/eslint-config-jsx@workspace:packages/@eslint/eslint-config-jsx":
+"@amollo-lint/eslint-config-jsx@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@amollo-lint/eslint-config-jsx@npm:1.1.0"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    eslint-plugin-jsx-a11y: ^6.5.1
+    eslint-plugin-react: ^7.29.2
+    eslint-plugin-react-hooks: ^4.3.0
+  peerDependencies:
+    eslint: ">=7.x"
+  checksum: fe524f5730f5ecdb177520a414d977c50c0ec50714d460c816af0a0d73929df1d61035e5387de858b8438a802b25eaafe3530d3e5fa806cf662839a6a7318bde
+  languageName: node
+  linkType: hard
+
+"@amollo-lint/eslint-config-jsx@workspace:packages/@eslint/eslint-config-jsx":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-jsx@workspace:packages/@eslint/eslint-config-jsx"
   dependencies:
@@ -48,7 +62,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/eslint-config-ts@^1.0.0, @amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts":
+"@amollo-lint/eslint-config-ts@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@amollo-lint/eslint-config-ts@npm:2.0.0"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    "@typescript-eslint/eslint-plugin": ^5.12.1
+    "@typescript-eslint/parser": ^5.12.1
+  peerDependencies:
+    eslint: ">=7.x"
+    typescript: ">=3.x"
+  checksum: 0aefb95098842f151fb2d019facbbf7d187dd76f068effd443350b8069bd3dee8ddb6a0920652942ca223fb3df7661d195db4e3b8481161fce483f2275bdd3a1
+  languageName: node
+  linkType: hard
+
+"@amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts"
   dependencies:
@@ -68,8 +96,8 @@ __metadata:
   resolution: "@amollo-lint/eslint-config-tsx@workspace:packages/@eslint/eslint-config-tsx"
   dependencies:
     "@amollo-lint/eslint-config-js": ^1.1.0
-    "@amollo-lint/eslint-config-jsx": ^1.0.0
-    "@amollo-lint/eslint-config-ts": ^1.0.0
+    "@amollo-lint/eslint-config-jsx": ^1.1.0
+    "@amollo-lint/eslint-config-ts": ^2.0.0
     eslint: ">=7"
     typescript: ">=3.x"
   peerDependencies:
