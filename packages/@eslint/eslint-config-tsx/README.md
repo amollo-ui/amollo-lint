@@ -27,11 +27,15 @@ Create a tsconfig.json file:
 $ tsc --init
 ```
 
-Set your eslint config to:
+Set your eslint config to: `.eslintrc.js` 
 
 ```
 {
-    "extends": "@amollo-lint/eslint-config-tsx"
+    "extends": "@amollo-lint/eslint-config-tsx",
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "tsconfigRootDir": __dirname,
+    }
 }
 ```
 
