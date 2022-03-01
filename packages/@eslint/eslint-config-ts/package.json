@@ -3,7 +3,7 @@
   "scopeCommitName": "@amollo-lint/eslint-ts",
   "description": "ESLint rules for TypeScript",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": {
     "name": "amollo-ui",
     "email": "amolloui@gmail.com"
