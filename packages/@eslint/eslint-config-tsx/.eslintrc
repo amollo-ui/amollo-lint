@@ -1,0 +1,3 @@
+{
+  "extends": "@amollo-lint/eslint-config-js"
+}
