@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/eslint-config-tsx",
-  "scopeCommitName": "@amollo-lint/eslint-tsx",
+  "scopeCommitName": "eslint-tsx",
   "version": "1.1.0",
   "license": "MIT",
   "description": "ESLint rules for React TSX",
