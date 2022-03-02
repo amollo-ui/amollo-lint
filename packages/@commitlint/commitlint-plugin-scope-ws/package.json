@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/commitlint-plugin-scope-ws",
-  "scopeCommitName": "@amollo-lint/cpsw",
+  "scopeCommitName": "cpsw",
   "version": "1.0.0",
   "license": "MIT",
   "description": "recognition and inclusion of the package names of the workspaces",
