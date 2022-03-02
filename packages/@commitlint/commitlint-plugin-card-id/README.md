@@ -8,13 +8,13 @@
 ## Installation
 - **npm**
 ```
-npm install --save-dev @amollo-lint/commitlint-plugin-card-id @commitlint/config-conventional
+npm install --save-dev @amollo-lint/commitlint-plugin-card-id @commitlint/config-conventional @commitlint/cli
 ```
 
 - **yarn**
 
 ```
-yarn add -D @amollo-lint/commitlint-plugin-card-id @commitlint/config-conventional
+yarn add -D @amollo-lint/commitlint-plugin-card-id @commitlint/config-conventional @commitlint/cli
 ```
 
 ## Usage
