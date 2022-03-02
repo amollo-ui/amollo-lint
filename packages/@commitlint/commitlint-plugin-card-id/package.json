@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/commitlint-plugin-card-id",
-  "scopeCommitName": "@amollo-lint/cpci",
+  "scopeCommitName": "cpci",
   "version": "1.2.0",
   "license": "MIT",
   "description": "recognition and inclusion of the card ID",
