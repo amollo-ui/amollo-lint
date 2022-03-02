@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/eslint-config-ts",
-  "scopeCommitName": "@amollo-lint/eslint-ts",
+  "scopeCommitName": "eslint-ts",
   "description": "ESLint rules for TypeScript",
   "license": "MIT",
   "version": "2.1.0",
