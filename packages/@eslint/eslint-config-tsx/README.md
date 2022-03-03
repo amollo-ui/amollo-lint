@@ -29,8 +29,8 @@ $ tsc --init
 
 Set your eslint config to: `.eslintrc.js` 
 
-```
-{
+```js
+module.exports = {
     "extends": "@amollo-lint/eslint-config-tsx",
     "parserOptions": {
         "project": "tsconfig.json",
