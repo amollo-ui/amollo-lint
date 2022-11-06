@@ -23,6 +23,7 @@
     "packages": [
       "packages/*",
       "packages/@eslint/*",
+      "packages/@prettier/*",
       "packages/@commitlint/*"
     ]
   },
@@ -31,7 +32,12 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "yarn workspaces foreach -pt run lint",
+    "modUnix": "chmod ug+x .husky/* && chmod ug+x .git/hooks/*",
+    "versionup": "sh ./shell/versionup"
+  },
   "devDependencies": {
     "@amollo-lint/commitlint-plugin-card-id": "workspace:^",
     "@amollo-lint/commitlint-plugin-scope-ws": "workspace:^",
@@ -43,10 +49,5 @@
     "lerna-changelog": "^2.2.0",
     "lint-staged": "^12.3.4"
   },
-  "scripts": {
-    "prepare": "husky install",
-    "lint": "yarn workspaces foreach -pt run lint",
-    "modUnix": "chmod ug+x .husky/* && chmod ug+x .git/hooks/*",
-    "versionup": "sh ./shell/versionup"
-  }
+  "packageManager": "yarn@3.1.1"
 }
