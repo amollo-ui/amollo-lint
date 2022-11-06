@@ -1,6 +1,7 @@
 # @amollo-lint/eslint-config-tsx
 
 [![MIT License][license-image]][LICENSE]
+[![npm version][npm-img]][npm]
 
 > ESLint rules for React TSX
 
@@ -26,11 +27,15 @@ Create a tsconfig.json file:
 $ tsc --init
 ```
 
-Set your eslint config to:
+Set your eslint config to: `.eslintrc.js` 
 
-```
-{
-    "extends": "@amollo-lint/eslint-config-tsx"
+```js
+module.exports = {
+    "extends": "@amollo-lint/eslint-config-tsx",
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "tsconfigRootDir": __dirname,
+    }
 }
 ```
 
@@ -40,3 +45,5 @@ Set your eslint config to:
 
 [license-image]: https://img.shields.io/npm/l/format-message.svg
 [LICENSE]: https://github.com/format-message/format-message/blob/master/LICENSE-MIT
+[npm-img]: https://img.shields.io/npm/v/@amollo-lint/eslint-config-tsx.svg?style=flat
+[npm]: https://www.npmjs.com/package/@amollo-lint/eslint-config-tsx

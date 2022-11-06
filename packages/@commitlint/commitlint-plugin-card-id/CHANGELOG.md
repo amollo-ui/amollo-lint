@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/amollo-ui/amollo-lint/compare/@amollo-lint/commitlint-plugin-card-id@1.2.0...@amollo-lint/commitlint-plugin-card-id@1.3.0) (2022-03-02)
+
+**Note:** Version bump only for package @amollo-lint/commitlint-plugin-card-id
+
+
+
+
+
 # [1.2.0](https://github.com/amollo-ui/amollo-lint/compare/@amollo-lint/commitlint-plugin-card-id@1.1.0...@amollo-lint/commitlint-plugin-card-id@1.2.0) (2022-02-25)
 
 

@@ -31,7 +31,10 @@ Set your eslint config to:
 
 ```
 {
-    "extends": "@amollo-lint/eslint-config-ts"
+    "extends": "@amollo-lint/eslint-config-ts",
+    "parserOptions": {
+        "project": "tsconfig.json"
+    }
 }
 ```
 

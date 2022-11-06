@@ -10,12 +10,12 @@ Plugin for naming scopes commit headers. The namespace will be assigned from the
 ## Installation
 - **npm**
 ```
-npm install --save-dev @amollo-lint/commitlint-plugin-scope-ws @commitlint/config-conventional
+npm install --save-dev @amollo-lint/commitlint-plugin-scope-ws @commitlint/config-conventional @commitlint/cli
 ```
 
 - **yarn**
 ```
-yarn add -D @amollo-lint/commitlint-plugin-scope-ws @commitlint/config-conventional
+yarn add -D @amollo-lint/commitlint-plugin-scope-ws @commitlint/config-conventional @commitlint/cli
 ```
 
 ## Usage

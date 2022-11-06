@@ -1,7 +1,7 @@
 {
   "name": "@amollo-lint/eslint-config-tsx",
-  "scopeCommitName": "@amollo-lint/eslint-tsx",
-  "version": "0.1.0",
+  "scopeCommitName": "eslint-tsx",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "ESLint rules for React TSX",
   "author": {
@@ -46,7 +46,7 @@
     "typescript": ">=3.x"
   },
   "dependencies": {
-    "@amollo-lint/eslint-config-jsx": "^1.0.0",
-    "@amollo-lint/eslint-config-ts": "^1.0.0"
+    "@amollo-lint/eslint-config-jsx": "^1.1.0",
+    "@amollo-lint/eslint-config-ts": "2.1.0"
   }
 }
