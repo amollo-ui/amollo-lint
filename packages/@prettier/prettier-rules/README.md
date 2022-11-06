@@ -1,0 +1,1 @@
+# @amollo-lint/prettier-rules
