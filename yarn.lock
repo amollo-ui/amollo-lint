@@ -24,7 +24,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/eslint-config-js@1.1.0, @amollo-lint/eslint-config-js@^1.1.0, @amollo-lint/eslint-config-js@workspace:^, @amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
+"@amollo-lint/eslint-config-js@1.1.0, @amollo-lint/eslint-config-js@^1.1.0, @amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-js@workspace:packages/@eslint/eslint-config-js"
   dependencies:
@@ -82,7 +82,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules"
   dependencies:
-    "@amollo-lint/eslint-config-js": "workspace:^"
+    "@amollo-lint/eslint-config-js": ^1.1.0
     eslint: ^8.27.0
   peerDependencies:
     eslint: "*"
