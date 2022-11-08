@@ -1,7 +1,7 @@
 {
   "name": "@amollo-lint/eslint-config-ts-prettier",
   "scopeCommitName": "eslint-ctxp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ESLint rules with Prettier for JavaScript",
   "license": "MIT",
   "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@eslint/eslint-config-ts-prettier#readme",
