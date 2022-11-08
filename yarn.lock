@@ -78,7 +78,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/eslint-config-tsx@workspace:packages/@eslint/eslint-config-tsx":
+"@amollo-lint/eslint-config-tsx-prettier@workspace:packages/@eslint/eslint-config-tsx-prettier":
+  version: 0.0.0-use.local
+  resolution: "@amollo-lint/eslint-config-tsx-prettier@workspace:packages/@eslint/eslint-config-tsx-prettier"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    "@amollo-lint/eslint-config-tsx": ^1.1.0
+    "@amollo-lint/prettier-rules": ^0.1.2
+    eslint: ^8.27.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.2.1
+  peerDependencies:
+    eslint: "*"
+    prettier: "*"
+    typescript: "*"
+  languageName: unknown
+  linkType: soft
+
+"@amollo-lint/eslint-config-tsx@^1.1.0, @amollo-lint/eslint-config-tsx@workspace:packages/@eslint/eslint-config-tsx":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-tsx@workspace:packages/@eslint/eslint-config-tsx"
   dependencies:
@@ -93,7 +110,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
+"@amollo-lint/prettier-rules@^0.1.2, @amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules"
   dependencies:
