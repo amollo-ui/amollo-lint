@@ -40,11 +40,13 @@
     "prepublishOnly": "yarn lint:fix && yarn lint"
   },
   "dependencies": {
-    "@amollo-lint/eslint-config-js": "^1.1.0",
+    "@amollo-lint/eslint-config-ts": "^2.1.0",
+    "@amollo-lint/prettier-rules": "^0.1.2",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
+    "@amollo-lint/eslint-config-js": "^1.1.0",
     "eslint": "^8.27.0"
   },
   "peerDependencies": {
