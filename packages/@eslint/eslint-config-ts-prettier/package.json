@@ -1,6 +1,6 @@
 {
   "name": "@amollo-lint/eslint-config-ts-prettier",
-  "scopeCommitName": "eslint-ctxp",
+  "scopeCommitName": "eslint-ctp",
   "version": "0.1.0",
   "description": "ESLint rules with Prettier for TS",
   "license": "MIT",
