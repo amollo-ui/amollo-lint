@@ -1,0 +1,53 @@
+{
+  "name": "@amollo-lint/prettier-rules",
+  "scopeCommitName": "prettier:r",
+  "version": "0.1.0",
+  "description": "Prettier rules",
+  "license": "MIT",
+  "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@prettier/prettier-rules#readme",
+  "author": {
+    "name": "amollo-ui",
+    "email": "amolloui@gmail.com"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-rules",
+    "rules",
+    "amollo",
+    "linter"
+  ],
+  "bugs": {
+    "url": "https://github.com/amollo-ui/amollo-lint/issues"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ExBrow/D_SDK.git",
+    "directory": "packages/@prettier/prettier-rules"
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "lint:fix": "yarn lint --fix",
+    "prepublishOnly": "yarn lint:fix && yarn lint"
+  },
+  "devDependencies": {
+    "@amollo-lint/eslint-config-js": "^1.1.0",
+    "eslint": "^8.27.0"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "packageManager": "yarn@3.1.1"
+}

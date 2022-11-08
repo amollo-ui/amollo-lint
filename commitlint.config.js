@@ -25,7 +25,7 @@ module.exports = {
         }],
         "card-id": [2, "always", {
             "required": false,
-            "prefixId": "card-",
+            "prefixId": "c-",
         }]
     },
     "plugins": [
