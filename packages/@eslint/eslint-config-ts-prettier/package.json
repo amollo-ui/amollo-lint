@@ -1,0 +1,56 @@
+{
+  "name": "@amollo-lint/eslint-config-ts-prettier",
+  "scopeCommitName": "eslint-ctxp",
+  "version": "0.0.1",
+  "description": "ESLint rules with Prettier for JavaScript",
+  "license": "MIT",
+  "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@eslint/eslint-config-ts-prettier#readme",
+  "author": {
+    "name": "amollo-ui",
+    "email": "amolloui@gmail.com"
+  },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "prettier/prettier",
+    "prettier-rules",
+    "eslint-config",
+    "rules",
+    "amollo",
+    "linter"
+  ],
+  "bugs": {
+    "url": "https://github.com/amollo-ui/amollo-lint/issues"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amollo-ui/amollo-lint.git",
+    "directory": "packages/@eslint/eslint-config-ts-prettier"
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "lint:fix": "yarn lint --fix",
+    "prepublishOnly": "yarn lint:fix && yarn lint"
+  },
+  "dependencies": {
+    "@amollo-lint/eslint-config-js": "^1.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*",
+    "typescript": "*"
+  },
+  "packageManager": "yarn@3.1.1"
+}
