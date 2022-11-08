@@ -1,7 +1,7 @@
 {
   "name": "@amollo-lint/prettier-rules",
   "scopeCommitName": "prettier:r",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prettier rules",
   "license": "MIT",
   "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@prettier/prettier-rules#readme",
