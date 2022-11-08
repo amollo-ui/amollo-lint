@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ExBrow/D_SDK.git",
+    "url": "git@github.com:amollo-ui/amollo-lint.git",
     "directory": "packages/@prettier/prettier-rules"
   },
   "scripts": {
