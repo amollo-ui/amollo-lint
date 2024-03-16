@@ -38,9 +38,9 @@
     "prepublishOnly": "yarn lint:fix && yarn lint"
   },
   "peerDependencies": {
-    "eslint": ">=7.x"
+    "eslint": ">=8.x"
   },
   "devDependencies": {
-    "eslint": ">=7.x"
+    "eslint": "^8.57.0"
   }
 }
