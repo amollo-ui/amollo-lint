@@ -70,7 +70,7 @@ __metadata:
   dependencies:
     "@amollo-lint/eslint-config-js": ^2.0.0
     "@amollo-lint/eslint-config-ts": ^3.0.0
-    "@amollo-lint/prettier-rules": ^1.0.0
+    "@amollo-lint/prettier-rules": ^1.0.1
     eslint: ^8.57.0
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.1.3
@@ -128,7 +128,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/prettier-rules@^1.0.0, @amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
+"@amollo-lint/prettier-rules@^1.0.0, @amollo-lint/prettier-rules@^1.0.1, @amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules"
   dependencies:

@@ -1,7 +1,7 @@
 {
   "name": "@amollo-lint/eslint-config-ts-prettier",
   "scopeCommitName": "eslint-ctp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules with Prettier for TS",
   "license": "MIT",
   "homepage": "https://github.com/amollo-ui/amollo-lint/tree/master/packages/@eslint/eslint-config-ts-prettier#readme",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@amollo-lint/eslint-config-ts": "^3.0.0",
-    "@amollo-lint/prettier-rules": "^1.0.0",
+    "@amollo-lint/prettier-rules": "^1.0.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3"
   },
