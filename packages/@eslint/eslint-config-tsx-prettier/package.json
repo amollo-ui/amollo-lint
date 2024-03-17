@@ -52,7 +52,7 @@
   },
   "peerDependencies": {
     "eslint": ">=8.x",
-    "prettier": "*",
+    "prettier": ">=3.x",
     "typescript": ">=5.x"
   },
   "packageManager": "yarn@3.1.1"
