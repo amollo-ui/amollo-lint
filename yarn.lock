@@ -136,7 +136,7 @@ __metadata:
     eslint: ^8.57.0
   peerDependencies:
     eslint: ">=8.x"
-    prettier: "*"
+    prettier: ">=3.x"
   peerDependenciesMeta:
     typescript:
       optional: true

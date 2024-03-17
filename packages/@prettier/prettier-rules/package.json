@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "eslint": ">=8.x",
-    "prettier": "*"
+    "prettier": ">=3.x"
   },
   "peerDependenciesMeta": {
     "typescript": {
