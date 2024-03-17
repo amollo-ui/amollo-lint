@@ -36,17 +36,17 @@
     "lint:fix": "yarn lint --fix",
     "prepublishOnly": "yarn lint:fix && yarn lint"
   },
-  "peerDependencies": {
-    "eslint": ">=7",
-    "typescript": ">=3.x"
-  },
   "devDependencies": {
-    "@amollo-lint/eslint-config-js": "^1.1.0",
-    "eslint": ">=7",
-    "typescript": ">=3.x"
+    "@amollo-lint/eslint-config-js": "^2.0.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.2"
   },
   "dependencies": {
-    "@amollo-lint/eslint-config-jsx": "^1.1.0",
-    "@amollo-lint/eslint-config-ts": "2.1.0"
+    "@amollo-lint/eslint-config-jsx": "^2.0.0",
+    "@amollo-lint/eslint-config-ts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.x",
+    "typescript": ">=5.x"
   }
 }
