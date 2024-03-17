@@ -38,11 +38,11 @@
     "prepublishOnly": "yarn lint:fix && yarn lint"
   },
   "devDependencies": {
-    "@amollo-lint/eslint-config-js": "^1.1.0",
-    "eslint": "^8.27.0"
+    "@amollo-lint/eslint-config-js": "^2.0.0",
+    "eslint": "^8.57.0"
   },
   "peerDependencies": {
-    "eslint": "*",
+    "eslint": ">=8.x",
     "prettier": "*"
   },
   "peerDependenciesMeta": {
