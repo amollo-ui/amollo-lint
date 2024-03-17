@@ -40,19 +40,19 @@
     "prepublishOnly": "yarn lint:fix && yarn lint"
   },
   "dependencies": {
-    "@amollo-lint/eslint-config-ts": "^2.1.0",
-    "@amollo-lint/prettier-rules": "^0.1.2",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "@amollo-lint/eslint-config-ts": "^3.0.0",
+    "@amollo-lint/prettier-rules": "^1.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3"
   },
   "devDependencies": {
-    "@amollo-lint/eslint-config-js": "^1.1.0",
-    "eslint": "^8.27.0"
+    "@amollo-lint/eslint-config-js": "^2.0.0",
+    "eslint": "^8.57.0"
   },
   "peerDependencies": {
-    "eslint": "*",
+    "eslint": ">=8.x",
     "prettier": "*",
-    "typescript": "*"
+    "typescript": ">=5.x"
   },
   "packageManager": "yarn@3.1.1"
 }

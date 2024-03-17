@@ -82,34 +82,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-ts-prettier@workspace:packages/@eslint/eslint-config-ts-prettier"
   dependencies:
-    "@amollo-lint/eslint-config-js": ^1.1.0
-    "@amollo-lint/eslint-config-ts": ^2.1.0
-    "@amollo-lint/prettier-rules": ^0.1.2
-    eslint: ^8.27.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.2.1
+    "@amollo-lint/eslint-config-js": ^2.0.0
+    "@amollo-lint/eslint-config-ts": ^3.0.0
+    "@amollo-lint/prettier-rules": ^1.0.0
+    eslint: ^8.57.0
+    eslint-config-prettier: ^9.1.0
+    eslint-plugin-prettier: ^5.1.3
   peerDependencies:
-    eslint: "*"
+    eslint: ">=8.x"
     prettier: "*"
-    typescript: "*"
+    typescript: ">=5.x"
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/eslint-config-ts@npm:2.1.0, @amollo-lint/eslint-config-ts@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@amollo-lint/eslint-config-ts@npm:2.1.0"
-  dependencies:
-    "@amollo-lint/eslint-config-js": ^1.1.0
-    "@typescript-eslint/eslint-plugin": ^5.12.1
-    "@typescript-eslint/parser": ^5.12.1
-  peerDependencies:
-    eslint: ">=7.x"
-    typescript: ">=3.x"
-  checksum: c779c572843fc9909ccb7b623e96eded3f6d5199a6360e74db7bf05dd48101e3f8646ed48f066681c21d81bea4f2e82fa02de94256ea28ea7e9fc0c27654a47d
-  languageName: node
-  linkType: hard
-
-"@amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts":
+"@amollo-lint/eslint-config-ts@^3.0.0, @amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/eslint-config-ts@workspace:packages/@eslint/eslint-config-ts"
   dependencies:
@@ -123,6 +109,20 @@ __metadata:
     typescript: ">=5.x"
   languageName: unknown
   linkType: soft
+
+"@amollo-lint/eslint-config-ts@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@amollo-lint/eslint-config-ts@npm:2.1.0"
+  dependencies:
+    "@amollo-lint/eslint-config-js": ^1.1.0
+    "@typescript-eslint/eslint-plugin": ^5.12.1
+    "@typescript-eslint/parser": ^5.12.1
+  peerDependencies:
+    eslint: ">=7.x"
+    typescript: ">=3.x"
+  checksum: c779c572843fc9909ccb7b623e96eded3f6d5199a6360e74db7bf05dd48101e3f8646ed48f066681c21d81bea4f2e82fa02de94256ea28ea7e9fc0c27654a47d
+  languageName: node
+  linkType: hard
 
 "@amollo-lint/eslint-config-tsx-prettier@workspace:packages/@eslint/eslint-config-tsx-prettier":
   version: 0.0.0-use.local
@@ -156,7 +156,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@amollo-lint/prettier-rules@^0.1.2, @amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
+"@amollo-lint/prettier-rules@^1.0.0, @amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules":
   version: 0.0.0-use.local
   resolution: "@amollo-lint/prettier-rules@workspace:packages/@prettier/prettier-rules"
   dependencies:
@@ -170,6 +170,19 @@ __metadata:
       optional: true
   languageName: unknown
   linkType: soft
+
+"@amollo-lint/prettier-rules@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@amollo-lint/prettier-rules@npm:0.1.2"
+  peerDependencies:
+    eslint: "*"
+    prettier: "*"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: de32de481559d618f3f755f9ecd666c4b8a6f94dcc35f3d5b7d1fbb6512ee7f1b31ac6946a0736fd9c862ed365ee23a7968b177d14a9458686d20f90b7e9f837
+  languageName: node
+  linkType: hard
 
 "@amollo-lint/stylelint@workspace:packages/stylelint":
   version: 0.0.0-use.local
@@ -1620,6 +1633,13 @@ __metadata:
   dependencies:
     "@octokit/openapi-types": ^11.2.0
   checksum: f122b9aee8f6baddd515e34a0913e73b21d4bc82d6ee59d77a8aaf01b4a02c10867dd013003d087a83dc96db23511893669015af6d30c27cece185e21cf1df89
+  languageName: node
+  linkType: hard
+
+"@pkgr/core@npm:^0.1.0":
+  version: 0.1.1
+  resolution: "@pkgr/core@npm:0.1.1"
+  checksum: 6f25fd2e3008f259c77207ac9915b02f1628420403b2630c92a07ff963129238c9262afc9e84344c7a23b5cc1f3965e2cd17e3798219f5fd78a63d144d3cceba
   languageName: node
   linkType: hard
 
@@ -3601,6 +3621,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-prettier@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "eslint-config-prettier@npm:9.1.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 9229b768c879f500ee54ca05925f31b0c0bafff3d9f5521f98ff05127356de78c81deb9365c86a5ec4efa990cb72b74df8612ae15965b14136044c73e1f6a907
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-jsx-a11y@npm:^6.5.1, eslint-plugin-jsx-a11y@npm:^6.8.0":
   version: 6.8.0
   resolution: "eslint-plugin-jsx-a11y@npm:6.8.0"
@@ -3639,6 +3670,26 @@ __metadata:
     eslint-config-prettier:
       optional: true
   checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prettier@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "eslint-plugin-prettier@npm:5.1.3"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+    synckit: ^0.8.6
+  peerDependencies:
+    "@types/eslint": ">=8.0.0"
+    eslint: ">=8.0.0"
+    eslint-config-prettier: "*"
+    prettier: ">=3.0.0"
+  peerDependenciesMeta:
+    "@types/eslint":
+      optional: true
+    eslint-config-prettier:
+      optional: true
+  checksum: eb2a7d46a1887e1b93788ee8f8eb81e0b6b2a6f5a66a62bc6f375b033fc4e7ca16448da99380be800042786e76cf5c0df9c87a51a2c9b960ed47acbd7c0b9381
   languageName: node
   linkType: hard
 
@@ -8378,6 +8429,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"synckit@npm:^0.8.6":
+  version: 0.8.8
+  resolution: "synckit@npm:0.8.8"
+  dependencies:
+    "@pkgr/core": ^0.1.0
+    tslib: ^2.6.2
+  checksum: 9ed5d33abb785f5f24e2531efd53b2782ca77abf7912f734d170134552b99001915531be5a50297aa45c5701b5c9041e8762e6cd7a38e41e2461c1e7fccdedf8
+  languageName: node
+  linkType: hard
+
 "tar@npm:^4.4.12":
   version: 4.4.19
   resolution: "tar@npm:4.4.19"
@@ -8593,6 +8654,13 @@ __metadata:
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
